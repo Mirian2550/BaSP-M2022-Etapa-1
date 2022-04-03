@@ -1,0 +1,60 @@
+body {
+    color: #373867;
+}
+
+.landing-header {
+    position: relative;
+    width: 80%;
+    height: 80px;
+    float: right;
+}
+.landing-header a {
+    position: relative;
+    float: left;
+    height: 24px;
+    
+}
+
+#sidebar {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: #AFAFC2;
+}
+.menu-icon i {
+    width: 35%;
+    float: right;
+}
+menu {
+    height: 21px;
+    width: 178px;
+    left: 28px;
+    top: 42px;
+    border-radius: nullpx;
+
+}
+
+h1 {
+    font-size: 54px;
+    display: inline-block;
+    width: 50%;
+}
+
+#landhome {
+    background-color: grey;
+    width: 80%;
+    float: right;
+    font-size: 18px;
+    bottom: 10%;
+}
+
+#landhome h2 {
+    text-transform: uppercase;
+    font-size: 24;
+    display: inline-block;
+    width: 45%;
+}
+.footer {
+    width: 80%;
+    float: right;
+}
