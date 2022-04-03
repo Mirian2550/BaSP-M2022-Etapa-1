@@ -2,17 +2,29 @@ body {
     color: #373867;
 }
 
+nav {
+    padding: 47px;
+}
+
+nav ul {
+    float: right;
+    display: flex;
+}
+
 .landing-header {
     position: relative;
     width: 80%;
     height: 80px;
     float: right;
+    border-bottom: 2px solid;
 }
+
 .landing-header a {
     position: relative;
     float: left;
     height: 24px;
-    
+    margin-left: 8px;
+
 }
 
 #sidebar {
@@ -21,18 +33,37 @@ body {
     float: left;
     background-color: #AFAFC2;
 }
-.menu-icon i {
-    width: 35%;
-    float: right;
-}
-menu {
-    height: 21px;
-    width: 178px;
-    left: 28px;
-    top: 42px;
-    border-radius: nullpx;
 
+#sidebar p {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 21px;
 }
+
+.coustumep {
+    padding: 9px 48px 33px 43px !important;
+    text-transform: capitalize !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+}
+
+#sidebar ul {
+    padding: 5px 28px 23px 33px;
+    text-transform: capitalize;
+    border-bottom: 2px solid;
+}
+
+#sidebar ul li {
+    margin-bottom: 8px;
+}
+
+.iconomenu {
+    float: right;
+    padding: 13px;
+    font-size: 30px;
+}
+
+
 
 h1 {
     font-size: 54px;
