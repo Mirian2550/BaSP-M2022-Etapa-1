@@ -67,14 +67,14 @@ nav ul {
 
 .home {
     display: table;
+    margin-bottom: 187px;
 }
 
 .land-home {
     position: relative;
     width: 79%;
-    height: 80px;
+    height: 100px;
     float: right;
-
 }
 
 h1 {
@@ -92,9 +92,7 @@ h1 {
 
 .land-home p {
     width: 50%;
-    height: 80px;
-    float: left;
-    padding-bottom: 3px 30px 50px 26px;
+    padding: 3px 30px 50px 26px;
 }
 
 .land-home button {
@@ -105,64 +103,21 @@ h1 {
     border: 1px solid #373867;
     text-transform: uppercase;
     float: left;
+    margin-left: 26px;
 }
 
 .img-home {
     float: right;
     width: 35%;
-    height: 800px;
     margin: 1%;
 }
 
 .history {
-    position: relative;
-    width: 79%;
-    height: 80px;
-    float: right;
+    display: table;
+    margin-bottom: 187px;
+    height: 350px;
 }
 
-.history h2{
-    font-size: 42px;
-    font-weight: bold;
-    padding: 30px;
-}
-
-.img1-history {
-    position: relative;
-    float: left;
-    width: 250px;
-    padding: 45px;
-    height: 200px;
-    padding: 30px;
-    display: inline-block;
-}
-
-.p1lorem {
-    position: relative;
-    float: right;
-    width: 50%;
-    padding: 30px 30px 17px 26px;
-    vertical-align: text-top;
-    display: inline-block;
-}
-
-.p2lorem {
-    position: relative;
-    float: left;
-    width: 50%;
-    padding: 30px 30px 17px 26px;
-    vertical-align: text-top;
-    display: inline-block;
-}
-
-.img2history {
-    float: right;
-    width: 200px;
-    padding: 300px;
-    height: 2500px;
-    padding: 350px 30px 17px 26px;
-    display: inline-block;
-}
 
 .functionalities{
     display: table;
@@ -216,6 +171,145 @@ footer {
     width: 80%;
     float: right;
     text-align: center;
+}
+
+footer a {
+    position: relative;
+    float: left;
+    height: 200px;
+}
+
+footer p {
+    font-size: 12px;
+    color: black;
+}
+
+
+.land-history{
+    position: relative;
+    width: 79%;
+    height: 100px;
+    float: right;
+}
+.land-history h2{
+    font-size: 42px;
+    display: inline-block;
+    font-weight: bold;
+    padding: 30px;
+}
+.column1-history {
+    width: 100%;
+    display: table;
+}
+.column1-history img{
+    float: left;
+    margin-left: 30px;
+    width: 30%;
+}
+.column1-history p{
+    float: left;
+    width: 64%;
+    margin-left: 11px;
+}
+.column2-history{
+    width: 100%;
+    display: table;
+}
+.column2-history p{
+    float: left;
+    width: 64%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.column2-history img{
+    float: right;
+    margin-right: 30px;
+    width: 29%;
+}
+.functionalities{
+    display: table;
+    position: relative;
+    width: 80%;
+    height: 100px;
+    float: right;
+}
+
+.functionalities h2{
+    font-size: 42px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.functionalities h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.reasons {
+    display: table;
+    position: relative;
+    width: 80%;
+    height: 100px;
+    float: right;
+}
+
+.reasons h2{
+    font-size: 42px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.reasons h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.request {
+    display: table;
+    position: relative;
+    width: 79%;
+    float: right;
+}
+
+.request h2 {
+    color: #231F20;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+}
+
+.request input {
+    width: 30%;
+}
+
+.request select {
+    width: 75%;
+}
+
+.request button {
+    background-color: #F56A6A;
+    color: white;
+}
+
+footer {
+    display: inline-block;
+    width: 79%;
+    float: right;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+footer li {
+    font-size: 15px;
+    margin-bottom: 12px;
 }
 
 footer a {
