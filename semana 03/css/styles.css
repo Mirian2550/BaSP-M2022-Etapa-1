@@ -348,11 +348,12 @@ h1, h2, h3 {
 }
 
    footer a {
-    display: block;
+    display: inline-block;
+    text-align: center;
     position: relative;
     height: 100px;
     float: left;
-    margin-left: 8px;
+    margin-right: 8px;
 }
 
    footer p {
