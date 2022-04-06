@@ -1,4 +1,4 @@
-Become a Software Professional 2022 - Stage 1
+Become a Software Professional 2022 - Stage 1.
 
 TRACKGENIX SA
 
