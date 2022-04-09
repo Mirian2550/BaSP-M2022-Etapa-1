@@ -1,0 +1,50 @@
+.home {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 6%;
+}
+
+.home h1 {
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.home h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+.home p {
+    margin-bottom: 60px;
+}
+
+.home img {
+    width: 100%;
+}
+
+.home button {
+    font-size: 14px;
+    padding: 20px 80px;
+    background-color: #AACE9B;
+    color: #373867;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-left: 35%;
+}
+
+.history {
+    display: flex;
+    background-color: blue;
+    
+}
+
+.functionalities {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 6%;
+    background-color: yellow;
+}
