@@ -10,4 +10,10 @@ Week 03 - CSS
 
 CSS properties
 
+Week 04 - Responsive
+
+creating responsive designed with flex box
+
+
+
 Author: Yañez Mirian
