@@ -38,13 +38,75 @@
 
 .history {
     display: flex;
-    background-color: blue;
-    
+    padding: 10%;
 }
 
-.functionalities {
+.history h2 {
+    display: none;
+}
+
+.history h3 {
+    font-size: 37px;
+    margin-bottom: 20px; 
+    color: #000000;
+}
+
+.history p {
+    font-size: 30px;
+    margin-bottom: 35px;
+
+}
+
+.history img {
+    width: 85%;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+
+.history button {
+    font-size: 14px;
+    padding: 20px 80px;
+    background-color: #F11A41;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-bottom: 35px;
+}
+
+.functionalities, .reasons {
     display: flex;
-    flex-direction: column-reverse;
     padding: 6%;
-    background-color: yellow;
+}
+
+
+.functionalities h2, .reasons h2 {
+    text-align: center;
+    font-size: 41px;
+    margin-bottom: 46px;
+}
+
+.functionalities h3, .reasons h3 {
+    font-size: 37px;
+    margin-bottom: 20px; 
+}
+
+.functionalities p, .reasons p {
+    font-size: 30px;
+}
+
+.functionalities img, .reasons img {
+    width: 28%;
+}
+
+.col-mid {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+.text-col {
+    margin: 0px 0px 0px 29px;
 }
