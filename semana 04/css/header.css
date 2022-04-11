@@ -1,7 +1,52 @@
 header {
-    display: flex;
-    background-color: pink;
     position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    background-color: #EDEDED;
+    align-items: center;
+}
+
+.header-mobile {
+        flex-direction: column;
+
+}
+
+.iconomenu-header {
+    display: flex;
+    float: left;
+    padding: 13px;
+    font-size: 100px;
+    padding: 5%;
+   }
+
+.header-mobile-1 {
+    display: flex;
+    text-align: center;
+    font-size: 110px;
+    padding: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.line-header {
+    display: flex;
+    width: 120%;
+    border: solid 1px;
+    margin: 10px;
+}
+
+.header-mobile-2 {
+    display: flex;
+    text-align: initial;
+    font-size: 24px;
+    padding: auto;
+    margin: 15px 0px 20px 0px;
 }
 
 .landing-header {

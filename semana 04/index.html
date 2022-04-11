@@ -20,6 +20,12 @@
  <body>
   <header class="landing-header">
    <nav>
+    <i class="fas fa-bars iconomenu-header"></i>
+    <section class="header-mobile">  
+      <p class="header-mobile-1">Tackgenix</p>
+      <div class="line-header"></div>
+      <p class="header-mobile-2">Subheader</p>
+    </section>
     <ul>
      <li>
       <a href="https://www.facebook.com/"><i class="fa fa-brands fa-facebook"></i></a>
@@ -40,7 +46,7 @@
   </header>
   <aside>
     <div id="sidebar">
-     <i class="fas fa-bars iconomenu"></i>
+     <i class="fas fa-bars iconomenu-sidebar"></i>
      <p>Menu</p>
      <ul>
       <li>Home</li>
@@ -250,9 +256,11 @@
   </section>
   <section class="request">
   <div class="request-parts">
+    <div class="line-h2">
     <div class="request-line1"></div>
     <h2>Request information:</h2>
    <div class="request-line2"></div>
+  </div>
    <div class="row-req">
     <div class="col-mid-req">
      <input type="text" name="name" placeholder="name" class="input-form" />
@@ -266,8 +274,8 @@
    <select name="Category" id="Category" class="select-form">
     <option value="" disabled selected hidden>Category</option>
     <option value="Human Resources">Human Resources</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
+    <option value="Systems">Systems</option>
+    <option value="Comercialization">Comercialization</option>
    </select>
    </div>
    <div class="textarea-div">
@@ -282,7 +290,7 @@ primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
     <label><input type="checkbox" value="true" id="human" /> I am a human</label>
    </div>
    <div>
-    <label>Message sent! Check your inbox for more details.</label>
+    <label class="message">Message sent! Check your inbox for more details.</label>
     <button class="btn-1">Send message</button>
     <button class="btn-2">Cancel</button>
    </div>

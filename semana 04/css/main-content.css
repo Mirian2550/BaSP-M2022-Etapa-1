@@ -118,17 +118,21 @@
     padding: 6%;
     flex-direction: column;
     background-color: yellow;
+    align-items: center;
+}
+
+.reasons line-h2 {
+    display: flex;
+    text-align: center;
+    Overflow: hidden
 }
 
 .request h2 {
-    display: flex;
     font-size: 45px;
     padding: 10px;
     color: #000000;
-    text-align: center;
 }
 .request-line1, .request-line2 {
-    display: flex;
     width: 90%;
     border: solid 2px;
     color: #F11A41;
@@ -178,12 +182,16 @@
     text-align: right;
     padding-top: 10px;
     margin-right: 65px;
-    background-color: #F6F3F3;
 }
 
 textarea {
     padding: 20px;
     height: 160px;
+    background-color: #F6F3F3;
+}
+
+.request label message {
+    display: none;
 }
 
 .btn-1, .btn-2 {

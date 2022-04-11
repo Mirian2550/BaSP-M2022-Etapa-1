@@ -15,6 +15,10 @@ aside {
     display: none;
 }
 
+.sidebar {
+    display: none;
+}
+
 @media screen and (min-width: 768px){
     aside {
         display: flex;
