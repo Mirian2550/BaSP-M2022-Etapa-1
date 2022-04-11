@@ -38,7 +38,7 @@
 
 .history {
     display: flex;
-    padding: 10%;
+    padding: 15%;
 }
 
 .history h2 {
@@ -46,7 +46,7 @@
 }
 
 .history h3 {
-    font-size: 37px;
+    font-size: 24px;
     margin-bottom: 20px; 
     color: #000000;
 }
@@ -54,13 +54,14 @@
 .history p {
     font-size: 30px;
     margin-bottom: 35px;
-
+    height: 250px;
+    overflow: hidden;
 }
 
 .history img {
-    width: 85%;
+    width: 100%;
     margin-bottom: 35px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .history button {
@@ -109,4 +110,96 @@
 
 .text-col {
     margin: 0px 0px 0px 29px;
+}
+
+.request {
+    display: flex;
+    text-align: center;
+    padding: 6%;
+    flex-direction: column;
+    background-color: yellow;
+}
+
+.request h2 {
+    display: flex;
+    font-size: 45px;
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+}
+.request-line1, .request-line2 {
+    display: flex;
+    width: 90%;
+    border: solid 2px;
+    color: #F11A41;
+}
+
+.input-form {
+    padding: 10px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.col-mid-req {
+    width: 100%;
+    display: inline-grid;
+    text-align: initial;
+    background-color: #F6F3F3;
+    margin-bottom: 15px;
+}
+
+.col-mid-email {
+    width: 100%;
+    display: inline-grid;
+    text-align: initial;
+
+}
+
+.col-mid-email input[type='email']{
+    background-color: #F6F3F3;
+
+}
+
+.select-form {
+    width: 100%;
+    display: inline-grid;
+    text-align: in;
+    background-color: #F6F3F3;
+}
+
+.textarea-div {
+    display: inline-grid;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.textarea-div label {
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 65px;
+    background-color: #F6F3F3;
+}
+
+textarea {
+    padding: 20px;
+    height: 160px;
+}
+
+.btn-1, .btn-2 {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #F11A41;
+}
+
+.btn-1 {
+    background: #F11A41;
+    color: white;
+
+}
+
+.btn-2 {
+    background: white;
+    color: #F11A41;
+
 }

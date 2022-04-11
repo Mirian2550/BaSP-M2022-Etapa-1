@@ -249,10 +249,12 @@
    </div>
   </section>
   <section class="request">
-   <h2>Request information:</h2>
-   <div class="request-line"></div>
-   <div class="row">
-    <div class="col-mid">
+  <div class="request-parts">
+    <div class="request-line1"></div>
+    <h2>Request information:</h2>
+   <div class="request-line2"></div>
+   <div class="row-req">
+    <div class="col-mid-req">
      <input type="text" name="name" placeholder="name" class="input-form" />
     </div>
     <div class="col-mid-email">
@@ -260,12 +262,14 @@
      <label><input type="checkbox" value="true" /> Send me a copy</label>
     </div>
    </div>
+   <div class="col-mid-req">
    <select name="Category" id="Category" class="select-form">
     <option value="" disabled selected hidden>Category</option>
     <option value="Human Resources">Human Resources</option>
     <option value="2">2</option>
     <option value="3">3</option>
    </select>
+   </div>
    <div class="textarea-div">
     <textarea placeholder="Enter your message">
 Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod.
@@ -279,8 +283,10 @@ primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
    </div>
    <div>
     <label>Message sent! Check your inbox for more details.</label>
-    <button class="btn">Send message</button>
+    <button class="btn-1">Send message</button>
+    <button class="btn-2">Cancel</button>
    </div>
+  </div>
   </section>
   <footer>
    <div class="col-md-3">
