@@ -14,6 +14,6 @@ Week 04 - Responsive
 
 creating responsive designed with flex box
 
-https://mirian2550.github.io/BaSP-M2022-Etapa-1/semana%2004/index.html
+https://mirian2550.github.io/BaSP-M2022-Etapa-1/semana-04/index.html
 
 Author: Yañez Mirian

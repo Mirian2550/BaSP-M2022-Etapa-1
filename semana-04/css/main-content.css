@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column-reverse;
     padding: 6%;
+    margin-top: 90px;
 }
 
 .home h1 {
@@ -210,4 +211,45 @@ textarea {
     background: white;
     color: #F11A41;
 
+}
+
+.list {
+    display: flex;
+    width: 100%;
+    float: right;
+    text-align: center;
+    flex-direction: column;
+   }
+
+.col-md-3 {
+    width: 100%;
+    float: center;
+    margin-bottom: 60px;
+    text-align: start;
+    color: #496EF1;
+}
+
+.col-md-3 li {
+    margin: 14px;
+    margin-left: 20%;
+    font-size: 26px;
+}
+   
+.col-md-3 h2 {
+    margin: 25px;
+    font-size: 46px;
+    color: #373867;
+    padding: 2%;
+    margin-left: 20%;
+}
+
+.list line {
+    width: 80%;
+    border: solid 2px;
+    background-color: #000000;
+}
+
+.list button {
+    display: none;
+    margin-bottom: 20px;
 }

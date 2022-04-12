@@ -11,20 +11,28 @@ p {
     text-align: justify;
 }
 
-aside {
+.landin-header {
+    display: none;
+}
+
+/* aside {
     display: none;
 }
 
 .sidebar {
     display: none;
-}
+} */
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
+        landin-header{
+        display: flex
+    }
     aside {
         display: flex;
     }
-}
 
-@media screen and (min-width: 1024px){
+} */
+
+/* @media screen and (min-width: 1024px){
     
-}
+} */
