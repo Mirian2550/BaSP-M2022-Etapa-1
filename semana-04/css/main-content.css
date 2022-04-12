@@ -28,13 +28,13 @@
 }
 
 .home button {
-    font-size: 14px;
+    font-size: 35px;
     padding: 20px 80px;
     background-color: #AACE9B;
     color: #373867;
     text-transform: uppercase;
     border-radius: 10px;
-    margin-left: 35%;
+    margin-left: 30%;
 }
 
 .history {
@@ -66,7 +66,7 @@
 }
 
 .history button {
-    font-size: 14px;
+    font-size: 25px;
     padding: 20px 80px;
     background-color: #F11A41;
     color: white;
@@ -86,6 +86,7 @@
     text-align: center;
     font-size: 41px;
     margin-bottom: 46px;
+    font-weight: bold;
 }
 
 .functionalities h3, .reasons h3 {
@@ -98,7 +99,7 @@
 }
 
 .functionalities img, .reasons img {
-    width: 28%;
+    width: 24%;
 }
 
 .col-mid {
@@ -106,7 +107,7 @@
     align-items: center;
     flex-direction: row-reverse;
     justify-content: space-around;
-    margin-bottom: 35px;
+    margin-bottom: 15%;
 }
 
 .text-col {
@@ -116,10 +117,14 @@
 .request {
     display: flex;
     text-align: center;
-    padding: 6%;
+    padding: 10%;
     flex-direction: column;
-    background-color: yellow;
     align-items: center;
+}
+
+.request-parts {
+    overflow: hidden;
+    width: 93%;
 }
 
 .reasons line-h2 {
@@ -129,7 +134,7 @@
 }
 
 .request h2 {
-    font-size: 45px;
+    font-size: 25px;
     padding: 10px;
     color: #000000;
 }
@@ -149,8 +154,15 @@
     width: 100%;
     display: inline-grid;
     text-align: initial;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.col-mid-req input {
     background-color: #F6F3F3;
-    margin-bottom: 15px;
+    padding: 18px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .col-mid-email {
@@ -162,27 +174,37 @@
 
 .col-mid-email input[type='email']{
     background-color: #F6F3F3;
+    padding: 18px;
+    font-size: 21px;
+    font-weight: bold;
 
+}
+.col-mid-email label {
+    display: none;
 }
 
 .select-form {
-    width: 100%;
-    display: inline-grid;
-    text-align: in;
     background-color: #F6F3F3;
+    padding: 18px;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .textarea-div {
     display: inline-grid;
     width: 100%;
-    padding: 20px;
     margin-bottom: 15px;
 }
 
 .textarea-div label {
-    text-align: right;
-    padding-top: 10px;
-    margin-right: 65px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textarea-div input {
+    font-size: 20px;
 }
 
 textarea {
@@ -199,6 +221,9 @@ textarea {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #F11A41;
+    font-size: 27px;
+    padding: 20px;
+    margin-right: 120px;
 }
 
 .btn-1 {
@@ -208,9 +233,22 @@ textarea {
 }
 
 .btn-2 {
-    background: white;
+    background: #EDEDED;
     color: #F11A41;
 
+}
+
+.mobile{
+    display: flex;
+    justify-content: center;
+}
+.mobile .btn-2{
+    float: right;
+    
+}
+
+.mobile .btn-1{
+    float: left;
 }
 
 .list {

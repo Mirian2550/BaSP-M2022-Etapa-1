@@ -255,48 +255,54 @@
    </div>
   </section>
   <section class="request">
-  <div class="request-parts">
-    <div class="line-h2">
-    <div class="request-line1"></div>
-    <h2>Request information:</h2>
-   <div class="request-line2"></div>
-  </div>
-   <div class="row-req">
-    <div class="col-mid-req">
-     <input type="text" name="name" placeholder="name" class="input-form" />
+    <div class="request-parts">
+      <div class="line-h2">
+      <div class="request-line1"></div>
+      <h2>Request information:</h2>
+     <div class="request-line2"></div>
     </div>
-    <div class="col-mid-email">
-     <input type="email" name="email" placeholder="E-mail" class="input-form" />
-     <label><input type="checkbox" value="true" /> Send me a copy</label>
+     <div class="row-req">
+      <div class="col-mid-req">
+       <input type="text" name="name" placeholder="name" class="input-form" />
+      </div>
+      <div class="col-mid-email">
+       <input type="email" name="email" placeholder="E-mail" class="input-form" />
+       <label><input type="checkbox" value="true" /> Send me a copy</label>
+      </div>
+     </div>
+     <div class="col-mid-req">
+     <select name="Category" id="Category" class="select-form">
+      <option value="" disabled selected hidden>Category</option>
+      <option value="Human Resources">Human Resources</option>
+      <option value="Systems">Systems</option>
+      <option value="Comercialization">Comercialization</option>
+     </select>
+     </div>
+     <div class="textarea-div">
+      <textarea placeholder="Enter your message">
+  Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod.
+  Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
+  ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget.
+  tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum
+  primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat 
+          ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
+      </textarea>
+      <label><input type="checkbox" value="true" id="human" /> I am a human</label>
+     </div>
+     <div>
+       <div class="desktop">
+        <label class="message">Message sent! Check your inbox for more details.</label>
+      <button class="btn-1">Send message</button>
+      <button class="btn-2">Cancel</button>
+       </div>
+       <div class="mobile">
+        <button class="btn-1">Send message</button>
+        <button class="btn-2">Cancel</button>
+       </div>
+     </div>
     </div>
-   </div>
-   <div class="col-mid-req">
-   <select name="Category" id="Category" class="select-form">
-    <option value="" disabled selected hidden>Category</option>
-    <option value="Human Resources">Human Resources</option>
-    <option value="Systems">Systems</option>
-    <option value="Comercialization">Comercialization</option>
-   </select>
-   </div>
-   <div class="textarea-div">
-    <textarea placeholder="Enter your message">
-Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod.
-Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
-ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget.
-tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum
-primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat 
-        ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
-    </textarea>
-    <label><input type="checkbox" value="true" id="human" /> I am a human</label>
-   </div>
-   <div>
-    <label class="message">Message sent! Check your inbox for more details.</label>
-    <button class="btn-1">Send message</button>
-    <button class="btn-2">Cancel</button>
-   </div>
-  </div>
-  </section>
-  <section class="list">
+    </section>
+    <section class="list">
     <div class="col-md-3">
       <h2>Products</h2>
       <div class="line"></div>
@@ -341,25 +347,24 @@ primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
       <div class="line"></div>
   </section>
   <footer>
-    <div class="social">
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/"><i class="fa fa-brands fa-facebook"></i></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
-        </li>
-        <li>
-          <a href="https://github.com/"><i class="fab fa-github"></i></a>
-        </li>
-      </ul>
-    </div>
+    <ul>
+     <li>
+      <a href="https://www.facebook.com/"><i class="fab fa-brands fa-facebook"></i></a>
+     </li>
+     <li>
+      <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+     </li>
+     <li>
+      <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+     </li>
+     <li>
+      <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+     </li>
+     <li>
+      <a href="https://github.com/"><i class="fab fa-github"></i></a>
+     </li>
+    </ul>
+   </div>
    <p>Copyright 2022</p>
   </footer>
  </body>

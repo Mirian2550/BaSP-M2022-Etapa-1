@@ -4,22 +4,35 @@ footer {
     background-color: #EDEDED;
     width: 100%;
     flex-direction: column;
-   }
-
-.social {
-    text-align: center;
+    height: 200px;
 }
 
-footer a {
+footer ul {
     display: flex;
-    height: 70px;
+    align-content: center;
+    padding: none;
+    justify-content: center;
+   }
+   footer ul li {
+    margin-left: 10px;
+   }
+
+   footer ul li a i{
+    font-size: 40px;
+   }
+
+footer a {
+    display: inline-block;
+    height: 100px;
     float: left;
     font-size: 20px;
     margin-right: 8px;
+    text-align: center;
+    position: relative;
 }
 
 footer p {
-    font-size: 12px;
+    font-size: 28px;
     color: black;
     text-align: center;
     padding-top: 30px;
