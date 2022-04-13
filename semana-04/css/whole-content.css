@@ -11,47 +11,6 @@ p {
     text-align: justify;
 }
 
-.landin-header {
-    display: none;
-}
-
-/* aside {
-    display: none;
-}
-
-.sidebar {
-    display: none;
-} */
-
-/* @media screen and (min-width: 768px){
-        landin-header{
-        display: flex
-    }
-    aside {
-        display: flex;
-    }
-
-} */
-
-/* @media screen and (min-width: 1024px){
-    
-} */
-
-aside {
-    display: none;
-}
-
-.sidebar {
-    display: none;
-}
-
-
-
-@media screen and (min-width: 768px){
-    aside {
-        display: none;
-    }
-    .desktop{
-        display: none;
-    }
+a {
+    text-decoration: none;
 }

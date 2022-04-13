@@ -1,6 +1,127 @@
-aside {
-    display: none;
+@media screen and (min-width: 250px) and (max-width: 767px) {
+    .sidebar {
+        display: none;
+       }
 }
-.sidebar{
-    display: none;
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    aside {
+        display: flex;
+       }
+      
+       .sidebar {
+        display: flex;
+       }
+    
+    #sidebar {
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 20%;
+        height: 100%;
+        float: left;
+        background-color: #afafc2;
+       }
+      
+       #sidebar i {
+        float: right;
+        padding: 13px;
+        font-size: 30px;
+       }
+      
+       #sidebar p {
+        font-weight: bold;
+        padding: 20px;
+        font-size: 21px;
+       }
+      
+       .menu-p {
+        padding: 9px 48px 33px 43px !important;
+        text-transform: capitalize !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+       }
+      
+       .line-menu {
+        width: 60%;
+        border: solid 1px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+       }
+    
+    #sidebar ul {
+        padding: 5px 28px 23px 33px;
+        display: contents;
+        text-transform: capitalize;
+        border-bottom: 2px solid;
+       }
+      
+       #sidebar ul li {
+        margin-bottom: 8px;
+        margin-left: 30px;
+       }
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+aside {
+    display: flex;
+   }
+  
+   .sidebar {
+    display: flex;
+   }
+
+#sidebar {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: #afafc2;
+   }
+  
+   #sidebar i {
+    float: right;
+    padding: 13px;
+    font-size: 30px;
+   }
+  
+   #sidebar p {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 21px;
+   }
+  
+   .menu-p {
+    padding: 9px 48px 33px 43px !important;
+    text-transform: capitalize !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+   }
+  
+   .line-menu {
+    width: 60%;
+    border: solid 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+   }
+
+#sidebar ul {
+    padding: 5px 28px 23px 33px;
+    display: contents;
+    text-transform: capitalize;
+    border-bottom: 2px solid;
+   }
+  
+   #sidebar ul li {
+    margin-bottom: 8px;
+    margin-left: 30px;
+   }
 }

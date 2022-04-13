@@ -1,68 +1,184 @@
-header {
-    display: flex;
-    position: fixed;
-    flex-direction: column-reverse;
-    /* position: relative;
-    width: 79%; */
-    width: 100%;
-    height: 100px;
-    float: right;
-}
 
-nav {
-    display: flex;
-    background-color: #EDEDED;
-    align-items: center;
-}
-
-.header-mobile {
-    flex-direction: column;
-}
-
-.iconomenu-header {
-    display: flex;
-    float: left;
-    font-size: 100px;
-    padding: 5%;
-   }
-
-.header-mobile-1 {
-    display: flex;
-    text-align: center;
-    font-size: 110px;
-    padding: auto;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.line-header {
-    display: flex;
-    width: 120%;
+   
+   .line {
+    width: 90%;
     border: solid 1px;
-    margin: 10px;
-}
-
-.header-mobile-2 {
-    display: flex;
-    text-align: initial;
-    font-size: 24px;
-    padding: auto;
-    margin: 15px 0px 20px 0px;
-}
-
-
- 
-header a {
+    margin: auto;
+   }
+   
+   @media screen and (min-width: 250px) and (max-width: 767px) {
+    aside {
+     display: none;
+    }
+   
+   header a {
     display: none;
     position: relative;
     float: left;
     margin-left: 8px;
     height: 200px;
-}
+   }
 
-.line {
-    width: 90%;
-    border: solid 1px;
-    margin: auto;
-}
+    header {
+     display: flex;
+     position: fixed;
+     flex-direction: column-reverse;
+     width: 100%;
+     top: 0;
+    }
+   
+    nav {
+     display: flex;
+     background-color: #ededed;
+     align-items: center;
+    }
+   
+    .iconomenu-header {
+     display: flex;
+     font-size: 30px;
+     margin: 0px 1px 31px 0px;
+     padding: 5px;
+    }
+   
+    .header-mobile {
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 20px;
+     margin-top: 20px;
+     align-content: stretch;
+     justify-content: space-around;
+    }
+   
+    .header-mobile-1 {
+     display: flex;
+     font-size: 40px;
+     padding: auto;
+     margin-bottom: 5px;
+     font-weight: bold;
+    }
+    .line-header {
+     display: flex;
+     width: 120%;
+     border: solid 1px;
+     margin: 10px;
+    }
+    .header-mobile-2 {
+     display: flex;
+     text-align: initial;
+     font-size: 24px;
+     padding: auto;
+     margin: 0px 0px 5px 0px;
+    }
+   }
+   @media screen and (min-width: 768px) and (max-width: 1023px) {
+    aside {
+        display: none;
+       }
+      
+      header a {
+       display: none;
+       position: relative;
+       float: left;
+       margin-left: 8px;
+       height: 200px;
+      }
+   
+       header {
+        display: flex;
+        position: fixed;
+        flex-direction: column-reverse;
+        width: 100%;
+        top: 0;
+       }
+      
+       nav {
+        display: flex;
+        background-color: #ededed;
+        align-items: center;
+       }
+      
+       .iconomenu-header {
+        display: flex;
+        font-size: 30px;
+        margin: 0px 1px 31px 0px;
+        padding: 5px;
+       }
+      
+       .header-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-top: 20px;
+        align-content: stretch;
+        justify-content: space-around;
+       }
+      
+       .header-mobile-1 {
+        display: flex;
+        font-size: 40px;
+        padding: auto;
+        margin-bottom: 5px;
+        font-weight: bold;
+       }
+       .line-header {
+        display: flex;
+        width: 120%;
+        border: solid 1px;
+        margin: 10px;
+       }
+       .header-mobile-2 {
+        display: flex;
+        text-align: initial;
+        font-size: 24px;
+        padding: auto;
+        margin: 0px 0px 5px 0px;
+       }
+   
+    
+   }
+   
+   @media screen and (min-width: 1024px) {
+
+    .header-mobile {
+     display: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        height: 90px;
+       }
+   
+    nav ul {
+     float: left;
+     display: flex;
+    }
+   
+    .landing-header {
+     position: relative;
+     width: 79%;
+     height: 80px;
+     float: right;
+    }
+   
+    .landing-header a {
+     position: relative;
+     float: left;
+     margin-left: 8px;
+    }
+   
+    .line {
+     display:flex;
+    }
+   
+   header a {
+    display: flex;
+    position: relative;
+    float: left;
+    margin-left: 8px;
+    height: 200px;
+   }
+
+   
+
+   }
