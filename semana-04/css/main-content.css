@@ -1,4 +1,4 @@
-@media screen and (min-width: 250px) and (max-width: 1023px) {
+@media screen and (min-width: 250px) and (max-width: 767px) {
     .home {
      display: flex;
      flex-direction: column-reverse;
@@ -311,10 +311,332 @@
      margin-bottom: 20px;
     }
    }
+
+   @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .home {
+     display: flex;
+     flex-direction: column-reverse;
+     padding: 6%;
+     margin-top: 15%;
+     margin-left: 15%
+    }
+   
+    .land-home {
+     text-align: center;
+    }
+   
+    .land-home .line {
+     display: none;
+    }
+    .home h1 {
+     text-align: center;
+     padding: 25px;
+     font-weight: bold;
+     font-size: 23px;
+    }
+   
+    .home h2 {
+     text-align: center;
+     text-transform: uppercase;
+     padding-bottom: 15px;
+     font-size: 14px;
+    }
+   
+    .home p {
+     margin-bottom: 60px;
+    }
+   
+    .home img {
+     width: 100%;
+     height: 280px;
+    }
+   
+    .home button {
+     font-size: 15px;
+     padding: 15px;
+     background-color: #aace9b;
+     color: #373867;
+     text-transform: uppercase;
+     border-radius: 5px;
+     border: 0px;
+     text-align: center;
+    }
+   
+    .history {
+     display: flex;
+     margin: 6%;
+     margin-left: 15%
+    }
+
+    .land-history {
+     display: flex;
+     align-content: center;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+    }
+   
+    .history h2 {
+     display: none;
+    }
+    .column1-history,
+    .column2-history {
+     width: 80%;
+    }
+    .history h3 {
+     margin-bottom: 20px;
+     color: #000000;
+     font-weight: 600;
+    }
+   
+    .history p {
+     font-size: 13px;
+     margin-bottom: 35px;
+     height: 250px;
+     overflow: hidden;
+     color: #939090;
+    }
+   
+    .history img {
+     width: 100%;
+     margin-bottom: 35px;
+     border-radius: 5px;
+    }
+   
+    .history button {
+     font-size: 15px;
+     background-color: #f11a41;
+     color: white;
+     text-transform: uppercase;
+     border-radius: 6px;
+     margin-bottom: 35px;
+     padding-left: 40px;
+     padding-right: 40px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border: 0px;
+    }
+   
+    .functionalities,
+    .reasons {
+     display: flex;
+     padding: 6%;
+     margin-left: 15%
+    }
+   
+    .functionalities h2,
+    .reasons h2 {
+     font-size: 25px;
+     margin-bottom: 46px;
+     font-weight: bold;
+     text-align: center;
+    }
+   
+    .functionalities h3,
+    .reasons h3 {
+     margin-bottom: 10px;
+    }
+   
+    .functionalities p,
+    .reasons p {
+     font-size: 15px;
+    }
+   
+    .functionalities img,
+    .reasons img {
+     width: 24%;
+    }
+   
+    .col-mid {
+     display: flex;
+     align-items: center;
+     flex-direction: row-reverse;
+     justify-content: space-around;
+     margin-bottom: 15%;
+    }
+    .text-col {
+     margin: 0px 0px 0px 29px;
+    }
+   
+    .request {
+     text-align: center;
+     display: flex;
+     padding: 5%;
+     margin-bottom: 24px;
+     margin-left: 15%
+    }
+   
+    .request-parts {
+     overflow: hidden;
+     width: 100%;
+    }
+   
+    .reasons line-h2 {
+     display: flex;
+     text-align: center;
+     overflow: hidden;
+    }
+   
+    .request h2 {
+     font-size: 20px;
+     padding: 10px;
+     color: #000000;
+    }
+    .request-line1,
+    .request-line2 {
+     width: 90%;
+     border: solid 2px;
+     color: #f11a41;
+    }
+   
+    .input-form {
+     padding: 10px;
+     border-radius: 7px;
+     width: 100%;
+    }
+   
+    .col-mid-req {
+     width: 100%;
+     display: inline-grid;
+     text-align: initial;
+     margin-bottom: 30px;
+     margin-top: 30px;
+    }
+   
+    .col-mid-req input {
+     background-color: #f6f3f3;
+     font-weight: bold;
+    }
+   
+    .col-mid-email {
+     text-align: initial;
+    }
+   
+    .col-mid-email input[type="email"] {
+     background-color: #f6f3f3;
+     font-weight: bold;
+     width: 100%;
+    }
+    .col-mid-email label {
+     display: none;
+    }
+   
+    .select-form {
+     background-color: #f6f3f3;
+     padding: 5px;
+     font-size: 21px;
+    }
+   
+    .textarea-div {
+     display: inline-grid;
+     width: 100%;
+     margin-bottom: 15px;
+    }
+   
+    .textarea-div label {
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     color: #ed3354;
+    }
+   
+    .textarea-div input {
+     font-size: 20px;
+    }
+   
+    textarea {
+     padding: 20px;
+     height: 160px;
+     background-color: #f6f3f3;
+    }
+   
+    .request label message {
+     display: none;
+    }
+    .desktop {
+     display: none;
+    }
+   
+    .btn-1,
+    .btn-2 {
+     padding: 10px;
+     border-radius: 10px;
+     border: 1px solid #f11a41;
+   
+     margin-right: 40px;
+     text-transform: uppercase;
+     font-size: 13px;
+    }
+   
+    .btn-1 {
+     background: #f11a41;
+     color: white;
+     padding: 11px;
+    }
+   
+    .btn-2 {
+     background: #ededed;
+     color: #f11a41;
+     padding: 0px 30px 0px 30px;
+    }
+   
+    .mobile {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+    }
+    .mobile .btn-2 {
+     float: right;
+    }
+   
+    .mobile .btn-1 {
+     float: left;
+    }
+   
+    .list {
+     display: flex;
+     width: 100%;
+     float: right;
+     text-align: center;
+     flex-direction: column;
+     margin-left: 15%
+    }
+   
+    .col-md-3 {
+     width: 100%;
+     text-align: start;
+     color: #496ef1;
+     margin-bottom: 20px;
+    }
+   
+    .col-md-3 li {
+     margin: 14px;
+     margin-left: 20%;
+     font-size: 20px;
+    }
+   
+    .col-md-3 h2 {
+     font-size: 28px;
+     color: #373867;
+     text-align: center;
+    }
+   
+    .list line {
+     width: 80%;
+     border: solid 2px;
+     background-color: #000000;
+    }
+   
+    .list button {
+     display: none;
+     margin-bottom: 20px;
+    }
+   }
+
    @media screen and (min-width: 1024px) {
     .home {
      display: table;
      margin-bottom: 187px;
+     margin-left: 40px;
     }
    
     .land-home {

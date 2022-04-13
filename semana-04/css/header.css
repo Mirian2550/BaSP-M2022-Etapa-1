@@ -1,95 +1,95 @@
 
-   
-   .line {
+.line {
     width: 90%;
     border: solid 1px;
     margin: auto;
-   }
+}
    
-   @media screen and (min-width: 250px) and (max-width: 767px) {
-    aside {
-     display: none;
-    }
-   
-   header a {
-    display: none;
-    position: relative;
-    float: left;
-    margin-left: 8px;
-    height: 200px;
-   }
-
-    header {
-     display: flex;
-     position: fixed;
-     flex-direction: column-reverse;
-     width: 100%;
-     top: 0;
-    }
-   
-    nav {
-     display: flex;
-     background-color: #ededed;
-     align-items: center;
-    }
-   
-    .iconomenu-header {
-     display: flex;
-     font-size: 30px;
-     margin: 0px 1px 31px 0px;
-     padding: 5px;
-    }
-   
-    .header-mobile {
-     display: flex;
-     flex-wrap: wrap;
-     margin-left: 20px;
-     margin-top: 20px;
-     align-content: stretch;
-     justify-content: space-around;
-    }
-   
-    .header-mobile-1 {
-     display: flex;
-     font-size: 40px;
-     padding: auto;
-     margin-bottom: 5px;
-     font-weight: bold;
-    }
-    .line-header {
-     display: flex;
-     width: 120%;
-     border: solid 1px;
-     margin: 10px;
-    }
-    .header-mobile-2 {
-     display: flex;
-     text-align: initial;
-     font-size: 24px;
-     padding: auto;
-     margin: 0px 0px 5px 0px;
-    }
-   }
-   @media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 250px) and (max-width: 767px) {
     aside {
         display: none;
-       }
-      
-      header a {
-       display: none;
-       position: relative;
-       float: left;
-       margin-left: 8px;
-       height: 200px;
-      }
-   
-       header {
+    }
+    
+    header a {
+        display: none;
+        position: relative;
+        float: left;
+        margin-left: 8px;
+        height: 200px;
+    }
+
+    header {
         display: flex;
         position: fixed;
         flex-direction: column-reverse;
         width: 100%;
         top: 0;
-       }
+    }
+    
+    nav {
+        display: flex;
+        background-color: #ededed;
+        align-items: center;
+    }
+    
+    .iconomenu-header {
+        display: flex;
+        font-size: 30px;
+        margin: 0px 1px 31px 0px;
+        padding: 5px;
+    }
+    
+    .header-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-top: 20px;
+        align-content: stretch;
+        justify-content: space-around;
+    }
+    
+    .header-mobile-1 {
+        display: flex;
+        font-size: 40px;
+        padding: auto;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .line-header {
+        display: flex;
+        width: 120%;
+        border: solid 1px;
+        margin: 10px;
+    }
+
+    .header-mobile-2 {
+        display: flex;
+        text-align: initial;
+        font-size: 24px;
+        padding: auto;
+        margin: 0px 0px 5px 0px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+     
+    header a {
+       display: none;
+       position: relative;
+       float: left;
+       margin-left: 8px;
+       height: 200px;
+    }
+   
+    header {
+        display: flex;
+        position: fixed;
+        flex-direction: column-reverse;
+        width: 100%;
+        top: 0;
+        margin-left: 15%
+    }
       
        nav {
         display: flex;
@@ -133,9 +133,7 @@
         padding: auto;
         margin: 0px 0px 5px 0px;
        }
-   
-    
-   }
+    }
    
    @media screen and (min-width: 1024px) {
 
@@ -144,14 +142,13 @@
     }
 
     nav {
-        display: flex;
-        align-items: center;
         height: 90px;
        }
    
     nav ul {
-     float: left;
      display: flex;
+     float: right;
+
     }
    
     .landing-header {
