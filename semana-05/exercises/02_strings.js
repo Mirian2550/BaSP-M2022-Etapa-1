@@ -66,6 +66,6 @@ letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el
 console.log('Exercise 2-f');
 var str1 = 'hello radium';
 var result =  str1.substring(0,1).toUpperCase() + str1.substring(1,str1.indexOf(' ')) + ' '
-result += str1.substring(str1.indexOf(' ')+1,str1.indexOf(' ')+2).toUpperCase() 
-result += str1.substring(str1.indexOf(' ')+2,str1.length).toLowerCase()
++ str1.substring(str1.indexOf(' ')+1,str1.indexOf(' ')+2).toUpperCase()
++ str1.substring(str1.indexOf(' ')+2,str1.length).toLowerCase()
 console.log('the result is: ' + result);

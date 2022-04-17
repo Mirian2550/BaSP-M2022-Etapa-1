@@ -29,4 +29,4 @@ console.log('Exercise 1-c');
 var str1 = 'Hello';
 var str2 = 'Radium';
 var result = str1 + str2;
-console.log('the result of the concat is: ' + result.length);
+console.log('the result is: ' + result.length);
