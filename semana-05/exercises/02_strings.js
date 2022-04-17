@@ -18,7 +18,7 @@ substring).
 
 console.log('Exercise 2-b');
 var str1 = 'Cryptomator';
-var result = str1.substring(0,5)
+var result = str1.substring(0, 5)
 console.log('the result is: ' + result);
 
 /*
@@ -29,7 +29,7 @@ substring).
 
 console.log('Exercise 2-c');
 var str1 = 'Cryptomator';
-var result = str1.substring(str1.length-3,str1.length)
+var result = str1.substring(str1.length - 3, str1.length)
 console.log('the result is: ' + result);
 
 /*
@@ -40,7 +40,7 @@ una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +
 
 console.log('Exercise 2-d');
 var str1 = 'cryptomator';
-var result = str1.substring(0,1).toUpperCase() + str1.substring(2,str1.length).toLowerCase()
+var result = str1.substring(0, 1).toUpperCase() + str1.substring(2, str1.length).toLowerCase()
 console.log('the result is: ' + result);
 
 
@@ -65,7 +65,7 @@ letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el
 
 console.log('Exercise 2-f');
 var str1 = 'hello radium';
-var result =  str1.substring(0,1).toUpperCase() + str1.substring(1,str1.indexOf(' ')) + ' '
-+ str1.substring(str1.indexOf(' ')+1,str1.indexOf(' ')+2).toUpperCase()
-+ str1.substring(str1.indexOf(' ')+2,str1.length).toLowerCase()
+var result = str1.substring(0, 1).toUpperCase() + str1.substring(1, str1.indexOf(' ')) + ' ' +
+	str1.substring(str1.indexOf(' ') + 1, str1.indexOf(' ') + 2).toUpperCase() +
+	str1.substring(str1.indexOf(' ') + 2, str1.length).toLowerCase()
 console.log('the result is: ' + result);
