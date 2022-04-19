@@ -8,8 +8,8 @@ JavaScript para mostrar una alerta utilizando cada una de las palabras.
 console.log('Exercise 5-a');
 var days = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes'];
 console.log('Array: ' + days);
-for(i = 0; i < days.length; i++) {
-    alert(days[i]);
+for (i = 0; i < days.length; i++) {
+	alert(days[i]);
 }
 
 /*
@@ -20,11 +20,11 @@ alerta por cada palabra modificada.
 console.log('Exercise 5-b');
 var toUpperCase = [];
 var toLowerCase = [];
-for(i = 0; i < days.length; i++) {
-    toUpperCase[i] = days[i].substring(0,1).toUpperCase();
-    toLowerCase[i] = days[i].substring(1,).toLowerCase();
-    toUpperCase[i] = toUpperCase[i] + toLowerCase[i];
-    alert(toUpperCase[i]);
+for (i = 0; i < days.length; i++) {
+	toUpperCase[i] = days[i].substring(0, 1).toUpperCase();
+	toLowerCase[i] = days[i].substring(1, ).toLowerCase();
+	toUpperCase[i] = toUpperCase[i] + toLowerCase[i];
+	alert(toUpperCase[i]);
 }
 console.log('Array with toUpperCase: ' + toUpperCase);
 
@@ -36,11 +36,11 @@ sentence. Al final mostrar una única alerta con la cadena completa.
 
 console.log('Exercise 5-c');
 var sentence = '';
-for(i = 0; i < days.length; i++) {
-    sentence = sentence + ' ' + days[i];
-    if (days.toString().length <= sentence.length) {
-        alert('Sentence: ' + sentence);
-    }
+for (i = 0; i < days.length; i++) {
+	sentence = sentence + ' ' + days[i];
+	if (days.toString().length <= sentence.length) {
+		alert('Sentence: ' + sentence);
+	}
 }
 console.log('Complete sentence: ' + sentence);
 
@@ -54,7 +54,7 @@ del navegador el array final (utilizar console.log).
 console.log('Exercise 5-d');
 var array = [];
 
-for(i = 0; i < 10; i++) {
-    alert(array.push(i));
+for (i = 0; i < 10; i++) {
+	array.push(i);
 }
 console.log('Array: ' + array);
